@@ -7,6 +7,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            obj[] = new obj;
             Console.WriteLine("Hello World!");
             ParseArray(5);
         }

@@ -8,9 +8,9 @@ namespace ConsoleApp1.Challenges
 {
     public class arraytostring
     {
-        public static void ParseArray(int arr)
-        {
-            Console.WriteLine(arr);
-        }
+        public static string[] ParseArray (object[] arr)
+	{
+		
+	}
     }
 }
