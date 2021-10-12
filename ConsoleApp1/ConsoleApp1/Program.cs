@@ -7,9 +7,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            obj[] = new obj;
-            Console.WriteLine("Hello World!");
-            ParseArray(5);
+            object[] arr = {1, 2, "a", "b"};
+            string[] str = ParseArray(arr);
+            foreach (string item in str)
+            {
+                Console.WriteLine(item);
+            }
         }
 
     }
