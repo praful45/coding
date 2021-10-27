@@ -2,6 +2,7 @@
 
 //two sum simple
 // time complexity O(n^2)
+//
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
